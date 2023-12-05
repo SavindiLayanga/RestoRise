@@ -61,7 +61,7 @@ body {
     color: white;
 }
 .nav_bar a:hover{
-    color: orange;
+    color: #FFB100;
 }
 /************************************/
 .home{
@@ -95,12 +95,13 @@ body {
 .welcome-para{
     font-size: 18px;
     color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     text-align: justify;
     width: 500px;
     margin-left: -25%;
+    font-weight: lighter;
 }
-img{
+.home-img{
     width:500px;
     margin-right: -5%;
 }
@@ -116,5 +117,11 @@ img{
 .about .topic {
     font-size: 60px;
     color: #FFB000;
-    margin-top: 7%;
+    margin-top: 14%;
+}
+.photo-container .first{
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    background-image: url("assets/about-img/01fddcf89b50c9063d23f126a0fc36f3 - Copy.jpg");
 }
